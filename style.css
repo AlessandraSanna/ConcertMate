@@ -1,0 +1,69 @@
+.active {
+  background-color: #4CAF50;
+}
+
+.what {
+  font-size: 28px;
+  font-family: 'Outfit';
+  font-weight: 100;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 250px;
+  background-color: white;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.card:hover {
+  box-shadow: 0 40px 80px 0 rgba(0,0,0,0.2);
+  background-color: white;
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: white;
+  border-radius: 30px 30px 30px 30px;
+  font-size: 18px;
+  font-family: 'Outfit';
+  text-align: center;
+}
+
+.container2 {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 600px;
+  padding-right: 600px;
+  font-size: 18px;
+  font-family: 'Outfit';
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 17px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 20px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: 500; 
+  font-size: 18px;
+  font-family: 'Outfit';
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #FF5757;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Outfit';
+}
